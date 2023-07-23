@@ -1,0 +1,18 @@
+{Data.main ? <h1>{Data.main.temp}</h1> : null}
+We did this instead of this
+<p>{Data.main.temp}</p>
+because we weren't able to acces .main in the weather.json file which was hindering us to further access .temp
+
+
+
+
+
+
+
+
+
+
+&units=metric
+For °C
+&units=imperial
+For °F
